@@ -75,7 +75,7 @@ void CALLBACK display()
 	glLoadIdentity();
 	glRotatef(angle, 1.0, 1.0, 1.0);
 
-	auxSolidTeapot(2.0);
+	auxSolidSphere(2.0);
 
 	glFlush();
 }
