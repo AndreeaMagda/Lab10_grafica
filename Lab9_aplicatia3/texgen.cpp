@@ -43,7 +43,7 @@ void myInit()
 	glTexGeni(GL_S, GL_TEXTURE_GEN_MODE, GL_OBJECT_LINEAR);
 
 	// coeficientii planului fata de care se calculeaza directia texturii
-	GLfloat sGenParams[] = { 1.0, 1.0, 1.0, 0.0 };
+	GLfloat sGenParams[] = { 1.0, -1.0, 1.0, 1.0 };
 	// incercati si parametrul GL_EYE_PLANE
 	glTexGenfv(GL_S, GL_OBJECT_PLANE, sGenParams);
 
