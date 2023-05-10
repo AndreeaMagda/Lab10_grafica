@@ -17,9 +17,9 @@ GLubyte stripeImage[3 * stripeImageWidth];
 void makeStripeImage(void)
 {
 	for (int j = 0; j < stripeImageWidth; j++) {
-		stripeImage[3 * j] = (j <= 4) ? 255 : 0; // rosu
-		stripeImage[3 * j + 1] = (j > 4) ? 255 : 0; // verde
-		stripeImage[3 * j + 2] = 0; // galben
+		stripeImage[3 * j] = (j <= 4) ? 500 : 0; // rosu
+		stripeImage[3 * j + 1] = (j > 4) ? 90 : 0; // verde
+		stripeImage[3 * j + 2] = 100; // galben
 	}
 }
 
