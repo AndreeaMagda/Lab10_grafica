@@ -53,4 +53,12 @@
       <Filter>dlls</Filter>
     </CopyFileToFolders>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="covor.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="parchet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
